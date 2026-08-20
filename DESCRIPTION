@@ -1,18 +1,26 @@
 Package: rapsimng.lupin
-Title: Lupin Model for APSIM Next Generation
+Title: Crop-Specific Functions and Parameters for APSIM Next Generation Lupin Model
 Version: 0.1.0
 Authors@R: 
     person("Bangyou", "Zheng", email = "zheng.bangyou@gmail.com", role = c("aut", "cre"))
-Description: Lupin model for APSIM Next Generation.
+Description: Provides lupin-specific functions, processes and parameter sets used by
+    lupin model in the Agricultural Production Systems sIMulator ('APSIM') Next Generation.
+    Includes tools for crop process calculations, parameter management and customisation, 
+    enabling users to explore, modify and apply lupin model components.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 Depends: R (>= 4.1.0)
 Imports:
-    optree,
-    tidyweather (>= 0.3.0)
+    optree (>= 0.1.1),
+    tidyweather (>= 0.3.0),
+    rapsimng (>= 0.6.0)
 Suggests: 
     testthat (>= 3.0.0)
+Remotes:
+    byzheng/optree,
+    byzheng/tidyweather,
+    byzheng/rapsimng
 Config/testthat/edition: 3
 URL: https://lupin.rapsimng.bangyou.me/,
     https://github.com/byzheng/rapsimng.lupin

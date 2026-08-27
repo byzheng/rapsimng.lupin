@@ -13,14 +13,9 @@ Roxygen: list(markdown = TRUE)
 Depends: R (>= 4.1.0)
 Imports:
     optree (>= 0.1.1),
-    tidyweather (>= 0.3.0),
-    rapsimng (>= 0.6.0)
+    tidyweather (>= 0.3.0)
 Suggests: 
     testthat (>= 3.0.0)
-Remotes:
-    byzheng/optree,
-    byzheng/tidyweather,
-    byzheng/rapsimng
 Config/testthat/edition: 3
 URL: https://lupin.rapsimng.bangyou.me/,
     https://github.com/byzheng/rapsimng.lupin

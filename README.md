@@ -16,5 +16,4 @@ remotes::install_github('byzheng/rapsimng.lupin')
 
 For detailed documentation and reference, visit: https://lupin.rapsimng.bangyou.me
 
----
 

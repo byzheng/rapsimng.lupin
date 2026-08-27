@@ -1,0 +1,30 @@
+# rapsimng.lupin
+
+Lupin model for APSIM Next Generation.
+
+## Installation
+
+Currently on [Github](https://github.com/byzheng/rapsimng.lupin) only.
+Install with:
+
+``` r
+
+remotes::install_github('byzheng/rapsimng.lupin')
+```
+
+## Documentation
+
+For detailed documentation and reference, visit:
+<https://lupin.rapsimng.bangyou.me>
+
+# Package index
+
+## All functions
+
+- [`lupin`](https://lupin.rapsimng.bangyou.me/reference/lupin.md) :
+  lupin model options manager
+- [`thermal_time()`](https://lupin.rapsimng.bangyou.me/reference/thermal_time.md)
+  : Calculate thermal time using cardinal temperatures
+- [`vernalisation_days()`](https://lupin.rapsimng.bangyou.me/reference/vernalisation_days.md)
+  : Calculate vernalisation time using cardinal temperatures
+

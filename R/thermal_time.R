@@ -23,7 +23,7 @@ thermal_time <- function(mint,
     maxt,
     x_temp = lupin$get("phenology.thermal_time.x"), 
     y_temp = lupin$get("phenology.thermal_time.y"),
-    method = "HourlySinPpAdjusted",
+    method = lupin$get("phenology.thermal_time.method"),
     ...) {
     
     tidyweather::thermal_time(

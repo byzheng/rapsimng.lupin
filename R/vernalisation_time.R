@@ -4,9 +4,6 @@
 #' 
 #' The daily vernalisation time is calculated by interpolating the effective vernalisation time at three hour intervals between the daily minimum and maximum temperatures, and then averaging these values to get the daily vernalisation time. 
 #' 
-#' For more information about the lupin phenology model, see the 
-#' [APSIM Next Generation lupin Documentation](https://apsimng-notes.bangyou.me/docs/Plants/lupin/Phenology/Vegetative.html).
-#' 
 #' 
 #' @param mint The minimum temperature
 #' @param maxt The maximum temperature

@@ -4,7 +4,7 @@
 #' @details 
 #' The daily thermal time is calculated by interpolating the effective thermal time at three hour intervals between the daily minimum and maximum temperatures, and then averaging these values to get the daily thermal time.
 #' For more information about the lupin phenology model, see the 
-#' [APSIM Next Generation lupin Documentation](https://notes.apsimng.bangyou.me/docs/Plants/lupin/Phenology/ThermalTime.html).
+#' [APSIM Next Generation Lupin Documentation](https://notes.apsimng.bangyou.me/docs/Plants/Lupin/Phenology/ThermalTime.html).
 #' 
 #' @param maxt The maximum temperature
 #' @param mint The minimum temperature

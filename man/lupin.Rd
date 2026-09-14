@@ -6,6 +6,9 @@
 \usage{
 lupin
 }
+\value{
+An option manager object for configuring lupin model parameters.
+}
 \description{
 An options manager for configuring lupin model parameters. This object provides
 methods to get and set lupin related parameters.

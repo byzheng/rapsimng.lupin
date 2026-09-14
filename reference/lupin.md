@@ -9,6 +9,10 @@ provides methods to get and set lupin related parameters.
 lupin
 ```
 
+## Value
+
+An option manager object for configuring lupin model parameters.
+
 ## Available Options
 
 - phenology.thermal_time.x:
